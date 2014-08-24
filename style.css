@@ -1,0 +1,105 @@
+@import url('reset.css');
+
+/* Start Code */
+
+body{
+	background: #ddd;
+}
+
+.container{
+	background: #fff;
+	max-width: 960px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+
+header{
+	padding: 20px 30px;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+
+	.logo{
+		float: left;
+		width: 300px;
+	}
+
+	.top-menu{
+		float: right;
+		margin-top: 30px;
+	}
+
+		.top-menu ul{
+			list-style-type: none;
+		}
+
+		.top-menu ul li{
+			display: inline-block;
+		}
+
+		.top-menu ul li a{
+			display: block;
+			padding: 10px;
+			font-size: 16px;
+			color: #002633;
+		}
+		.top-menu ul li a:hover{
+			color: #B16B67;
+		}
+
+
+
+		#searchbar {
+			display:none;
+			float:left;
+			width:100%;
+			height:62px;
+			padding-left:25px;
+			padding-right:10px;
+			z-index:9999;
+			background:#f4f4f4;
+		}
+
+		#s {
+			display:block;
+			width:88%;
+			border:0;
+			outline:none;
+			height:60px;
+			line-height:60px;
+			font-size:2em;
+			font-weight:700;
+			color:#676767;
+			padding:0;
+			background: #f4f4f4;
+		}
+
+		#searchsubmit {
+			display:block;
+			float:right;
+			margin-top:6px;
+			background:none;
+			color:#717171;
+			border:0;
+			outline:none;
+			cursor:pointer;
+		}
+
+
+.banner {
+display:block;
+width:100%;
+height:360px;
+background:url(8270925107_41e91b8b56_k.jpg) no-repeat;
+background-size:100%;
+}
+
+.content{
+	text-align: center;
+	padding: 0 30px;
+}
+.content h2{
+	font-size: 30px;
+	padding: 20px;
+}
